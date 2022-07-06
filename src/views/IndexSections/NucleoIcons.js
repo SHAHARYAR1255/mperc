@@ -44,7 +44,7 @@ export default function NucleoIcons() {
               <Button
                 className="btn-round"
                 color="primary"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons"
+                href="https://forms.gle/tbazS7dx5zvn71wz8"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -53,7 +53,7 @@ export default function NucleoIcons() {
               <Button
                 className="btn-simple btn-round"
                 color="primary"
-                href="https://nucleoapp.com/?ref=1712"
+                href="#"
                 rel="noopener noreferrer"
                 size="lg"
                 target="_blank"
