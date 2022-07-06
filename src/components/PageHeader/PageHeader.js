@@ -35,7 +35,10 @@ export default function PageHeader() {
           <h1 className="h1-seo">SENTEC </h1>
           <h3 className="h1-seo">presents </h3>
           <h1 className="d-none d-sm-block">
-            <b>Mega Project Exhibition & Robotics Competitions</b>
+            <b>Mega Project Exhibition & Robotics Competitions </b>
+          </h1>
+          <h1 className="d-none d-sm-block">
+           <i>21st and 22nd of July </i>
           </h1>
         </div>
       </Container>

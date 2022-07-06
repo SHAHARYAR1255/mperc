@@ -16,60 +16,48 @@
 
 */
 import React from "react";
-import classnames from "classnames";
-// react plugin used to create datetimepicker
-import ReactDatetime from "react-datetime";
 
-// reactstrap components
 import {
-  Button,
-  FormGroup,
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
-  UncontrolledPopover,
-  PopoverBody,
-  PopoverHeader,
-  Modal,
-  Form,
-  Input,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Label,
   UncontrolledCarousel,
 } from "reactstrap";
 
 const carouselItems = [
   {
-    src: require("assets/img/denys.jpg").default,
+    src: require("assets/img/robo2.jpeg").default,
     altText: "Slide 1",
     caption: "",
   },
   {
-    src: require("assets/img/fabien-bazanegue.jpg").default,
+    src: require("assets/img/robo.jpeg").default,
     altText: "Slide 2",
+    caption: "",
+  }
+];
+
+const carouselItems2 = [
+  {
+    src: require("assets/img/robo2.jpeg").default,
+    altText: "Slide 1",
     caption: "",
   },
   {
-    src: require("assets/img/mark-finn.jpg").default,
-    altText: "Slide 3",
+    src: require("assets/img/robo2.jpeg").default,
+    altText: "Slide 2",
     caption: "",
-  },
+  }
 ];
 
 export default function JavaScript() {
-  const [demoModal, setDemoModal] = React.useState(false);
-  const [miniModal, setMiniModal] = React.useState(false);
-  const [formModal, setFormModal] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
-  const [passwordFocus, setPasswordFocus] = React.useState(false);
+
   return (
     <div className="section section-javascript" id="javascriptComponents">
       <img
         alt="..."
         className="path"
+
         src={require("assets/img/path5.png").default}
       />
       <img
@@ -82,17 +70,16 @@ export default function JavaScript() {
       <div className="section">
         <Container>
           <div className="title">
-            <h3>About Judges</h3>
+            <h3>DAY2</h3>
+            <h1><b>SESSIONS On</b></h1>
           </div>
           <Row className="justify-content-between align-items-center">
             <Col className="mb-5 mb-lg-0" lg="5">
               <h1 className="text-white font-weight-light">
-                Dr.Riaz
+                Current Trends in ROBOTICS
               </h1>
               <p className="text-white mt-4">
-                Black Design comes with three pre-built pages to help you get
-                started faster. You can change the text and images and you're
-                good to go.
+              BY : Dr.Riaz Uddin
               </p>
               {/* <Button
                 className="mt-4"
@@ -114,12 +101,10 @@ export default function JavaScript() {
           <Row className="justify-content-between align-items-center">
             <Col className="mb-5 mb-lg-0" lg="5">
               <h1 className="text-white font-weight-light">
-                Dr.Riaz
+                HOW TO EARN DOLLARS ONLINE AS A DIGITAL MARKETER
               </h1>
               <p className="text-white mt-4">
-                Black Design comes with three pre-built pages to help you get
-                started faster. You can change the text and images and you're
-                good to go.
+               BY : SHAHERYAR ARSHAD 
               </p>
               {/* <Button
                 className="mt-4"
@@ -131,7 +116,7 @@ export default function JavaScript() {
             </Col>
             <Col lg="6">
               <UncontrolledCarousel
-                items={carouselItems}
+                items={carouselItems2}
                 indicators={false}
                 autoPlay={false}
               />

@@ -24,7 +24,7 @@ export default function Download() {
     <div
       className="section section-download"
       data-background-color="black"
-      id="download-section"
+      
     >
       <img
         alt="..."
@@ -35,25 +35,21 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              Do you love this Bootstrap 4 React Design System?
+              WIN EXCITING CASH PRIZES !!!
             </h2>
             <h4 className="description">
-              Cause if you do, it can be yours for FREE. Hit the button below to
-              navigate to Creative Tim where you can find the design system in
-              React format. Start a new project or give an old Bootstrap project
-              a new look!
+              So do participate and enhance your skills and win exciting cash prizes. 
             </h4>
           </Col>
           <Col className="text-center" lg="8" md="12">
-            <Button
+            {/* <Button
               className="btn-round"
               color="info"
-              href="https://www.creative-tim.com/product/blk-design-system-react?ref=blkdsr-index-page-download-section"
               role="button"
               size="lg"
             >
               Download React
-            </Button>
+            </Button> */}
           </Col>
         </Row>
         <br />
@@ -77,10 +73,10 @@ export default function Download() {
               id="twitter"
               size="lg"
             >
-              <i className="fab fa-twitter" />
+              <i className="fab fa-instagram" />
             </Button>
             <UncontrolledTooltip delay={0} target="twitter">
-              Tweet!
+              Follow
             </UncontrolledTooltip>
             <Button
               className="btn-icon btn-round"
@@ -91,20 +87,20 @@ export default function Download() {
               <i className="fab fa-facebook-square" />
             </Button>
             <UncontrolledTooltip delay={0} target="facebook">
-              Share!
+              Like
             </UncontrolledTooltip>
             <Button
               className="btn-icon btn-round"
               color="github"
-              href="https://github.com/creativetimofficial"
+              href="https://sentec.live"
               id="tooltip877922017"
               size="lg"
               target="_blank"
             >
-              <i className="fab fa-github" />
+              <i className="fab fa-envelope-o " />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip877922017">
-              Star on Github
+              Website
             </UncontrolledTooltip>
           </Col>
         </Row>

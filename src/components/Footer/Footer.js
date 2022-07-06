@@ -35,7 +35,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h1 className="title">•SENTEC</h1>
           </Col>
           <Col md="3">
             <Nav>
@@ -45,8 +45,13 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
+                <NavLink to="/sentec.live" tag={Link}>
                   Landing
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://medium.com/@neduetsentec">
+                  Blog
                 </NavLink>
               </NavItem>
               
@@ -55,18 +60,18 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
+                <NavLink href="https://sentec.live/contact.html">
                   Contact Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
+                <NavLink href="https://sentec.live">
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                  Blog
+                <NavLink href="https://github.com/SHAHARYAR1255">
+                  BY: SHAHARYAR MALIK
                 </NavLink>
               </NavItem>
               
@@ -102,7 +107,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://sentec.com"
+                href="https://sentec.live"
                 id="tooltip318450378"
                 target="_blank"
               >

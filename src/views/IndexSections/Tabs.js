@@ -22,20 +22,23 @@ import {
   Container,
 
 } from "reactstrap";
+import {data} from '../../variables/data';
 
 export default function Tabs() {
 
   return (
-    <div className="section section-tabs">
+    <div className="section section-tabs" id="download-section">
+      {console.log(data)}
       <Container>
         <div className="title">
-          <h3 className="mb-3">COMPETETIONS</h3>
+          <h1 className="mb-3"><b>COMPETETIONS</b></h1>
         </div>
-        <Competition name1="QUIZERIA" name2="WEB HACKATHON" />
-        <Competition name1="LINE FOLLOWING ROBOT" name2="ROBO SOCCER" />
-        <Competition name1="ROBO RACE" name2="SPEED PROGRAMMING" />
-        <Competition name1="CHESS" name2="SCRABLE" />
-        <Competition name1="TREASURE HUNT" name2="POSTER DESIGNING" />
+        {data.map(dat => {
+          return <Competition datas={dat}
+          />
+        })}
+
+      
       </Container>
     </div>
   );

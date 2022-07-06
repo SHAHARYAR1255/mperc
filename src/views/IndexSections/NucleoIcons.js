@@ -32,11 +32,13 @@ export default function NucleoIcons() {
           <Col lg="8" md="12">
             <h2 className="title">PROJECT EXHIBITION</h2>
             <h4 className="description">
-              BLK• Design System PRO comes with 100 custom icons made by our
-              friends from NucleoApp. The official package contains over 2.100
-              thin icons which are looking great in combination with BLK• Design
-              System PRO Make sure you check all of them and use those that you
-              like the most.
+              This exhibition mainly focuses on the engineering ingenuity skills, portrayed by the
+              students in a variety of engineering projects, they developed during their academics. The
+              exhibition would provide a platform for showcasing all these creative projects so that they
+              could be appreciated by all in true sense. Projects from known universities of Pakistan will
+              be exhibited and the candidates will be given a chance to present their detailed and
+              innovative idea in front of the judging panel. After qualifying the assessing criteria of the
+              judging panel the best project will be declared the winner.
             </h4>
             <div className="btn-wrapper">
               <Button
@@ -61,7 +63,7 @@ export default function NucleoIcons() {
             </div>
           </Col>
         </Row>
-        
+
       </Container>
     </div>
   );
