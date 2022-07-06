@@ -26,12 +26,12 @@ import {
 
 const carouselItems = [
   {
-    src: require("assets/img/robo2.jpeg").default,
+    src: require("assets/img/robo2.jpg").default,
     altText: "Slide 1",
     caption: "",
   },
   {
-    src: require("assets/img/robo.jpeg").default,
+    src: require("assets/img/robo1.png").default,
     altText: "Slide 2",
     caption: "",
   }
@@ -39,12 +39,12 @@ const carouselItems = [
 
 const carouselItems2 = [
   {
-    src: require("assets/img/robo2.jpeg").default,
+    src: require("assets/img/dm1.jpg").default,
     altText: "Slide 1",
     caption: "",
   },
   {
-    src: require("assets/img/robo2.jpeg").default,
+    src: require("assets/img/dm2.jpg").default,
     altText: "Slide 2",
     caption: "",
   }
