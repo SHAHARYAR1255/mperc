@@ -30,11 +30,11 @@ const carouselItems = [
     altText: "Slide 1",
     caption: "",
   },
-  {
-    src: require("assets/img/robo1.png").default,
-    altText: "Slide 2",
-    caption: "",
-  }
+  // {
+  //   src: require("assets/img/robo1.png").default,
+  //   altText: "Slide 2",
+  //   caption: "",
+  // }
 ];
 
 const carouselItems2 = [
@@ -43,11 +43,11 @@ const carouselItems2 = [
     altText: "Slide 1",
     caption: "",
   },
-  {
-    src: require("assets/img/dm2.jpg").default,
-    altText: "Slide 2",
-    caption: "",
-  }
+  // {
+  //   src: require("assets/img/dm2.jpg").default,
+  //   altText: "Slide 2",
+  //   caption: "",
+  // }
 ];
 
 export default function JavaScript() {
@@ -70,7 +70,7 @@ export default function JavaScript() {
       <div className="section">
         <Container>
           <div className="title">
-            <h3>DAY2</h3>
+            <h3>DAY 2</h3>
             <h1><b>SESSIONS On</b></h1>
           </div>
           <Row className="justify-content-between align-items-center">
@@ -78,9 +78,9 @@ export default function JavaScript() {
               <h1 className="text-white font-weight-light">
                 Current Trends in ROBOTICS
               </h1>
-              <p className="text-white mt-4">
+              <h3 className="pinki mt-4">
               BY : Dr.Riaz Uddin
-              </p>
+              </h3>
               {/* <Button
                 className="mt-4"
                 color="warning"
@@ -90,6 +90,7 @@ export default function JavaScript() {
               </Button> */}
             </Col>
             <Col lg="6">
+
               <UncontrolledCarousel
                 items={carouselItems}
                 indicators={false}
@@ -103,7 +104,7 @@ export default function JavaScript() {
               <h1 className="text-white font-weight-light">
                 HOW TO EARN DOLLARS ONLINE AS A DIGITAL MARKETER
               </h1>
-              <p className="text-white mt-4">
+              <p className="pinki mt-4">
                BY : SHAHERYAR ARSHAD 
               </p>
               {/* <Button

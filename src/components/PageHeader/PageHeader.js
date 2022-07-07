@@ -33,7 +33,7 @@ export default function PageHeader() {
       <Container>
         <div className="content-center brand">
           <h1 className="h1-seo">SENTEC </h1>
-          <h3 className="h1-seo">presents </h3>
+          <h3 className="h2-seo">presents </h3>
           <h1 className="d-none d-sm-block">
             <b>Mega Project Exhibition & Robotics Competitions </b>
           </h1>

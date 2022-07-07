@@ -35,10 +35,11 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              WIN EXCITING CASH PRIZES !!!
+              WITNESS, HOW IT HAPPENS!
             </h2>
             <h4 className="description">
-              So do participate and enhance your skills and win exciting cash prizes. 
+              Come Join Us at Main Auditorium at 9:00 AM on 21st and 22nd of July.
+              {/* So do participate and enhance your skills and win exciting cash prizes.  */}
             </h4>
           </Col>
           <Col className="text-center" lg="8" md="12">
